@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* slide banner  deco */
+.gallery-center {
+	width: 930px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0px 40px 30px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.gallery-center_inner {
+	width: 100%;
+	overflow: hidden;
+}
+
+.gallery-center .swiper-slide a {
+	width: 100%;
+	height: 100%;
+}
+
+.gallery-center .swiper-slide img {
+	display: block;
+	width: 100%;
+}
+
+
+.gallery-center .swiper-button-prev,
+.gallery-center .swiper-button-next {
+	color: #33261E;
+}
+
+
+.gallery-center .swiper-button-prev:hover,
+.gallery-center .swiper-button-next:hover {
+	color: #FAE7D5;
+}
+
+
+.gallery-center .swiper-pagination-bullet {
+	background: #FAE7D5;
+	width: 10px;
+	height: 10px;
+	opacity: 1;
+}
+
+.gallery-center .swiper-pagination-bullet-active {
+	opacity: 1;
+	background: #33261E;
+}
+
+
+.gallery-center .swiper-horizontal>.swiper-pagination-bullets,
+.gallery-center .swiper-pagination-bullets.swiper-pagination-horizontal {
+	bottom: 0px;
+}

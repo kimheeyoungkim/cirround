@@ -1,0 +1,590 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #33261E;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+
+
+body {
+    min-width: 1320px;
+    font-family: 'SUITE', sans-serif;
+    ;
+    font-weight: 100;
+    background: #FAE7D5;
+}
+
+img {
+    display: block;
+    color: #33261E;
+}
+
+/* scroll bar */
+body::-webkit-scrollbar {
+   
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    
+    background-color: #33261E;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+
+body::-webkit-scrollbar-track {
+    
+    background-color: #FDF6F0;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
+
+/* scroll bar */
+
+
+
+/* main */
+
+
+#fixed {
+    
+    position: relative;
+    overflow: hidden;
+}
+
+/* logo */
+.logo {
+    position: fixed;
+    top: 40px;
+    left: 50px;
+    z-index: 99;
+
+}
+
+/* top menu */
+nav ul {
+    position: fixed;
+    top: 45px;
+    right: 50px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    z-index: 98;
+}
+
+
+nav ul li a {
+    text-align: center;
+    width: 100px;
+    border: #33261E 1px solid;
+    border-radius: 50px;
+    margin-left: 20px;
+    padding: 0 0 3px;
+    display: inline-block;
+
+}
+
+nav ul li a:hover {
+    background-color: #33261E;
+    color: #FAE7D5;
+}
+
+/* f-sns+contact */
+.f_sns {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    left: 50px;
+    bottom: 45px;
+    z-index: 97;
+}
+
+.cntct {
+    margin-left: 10px;
+    border: #33261E 0.5px solid;
+    padding: 0 15px;
+    border-radius: 30px;
+    z-index: 96;
+}
+
+.cntct:hover {
+    background-color: #33261E;
+    color: #FAE7D5
+}
+
+/* f-oline shop */
+
+.f_onlineshop {
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
+    border-radius: 100px;
+    border: #33261E 0.5px solid;
+    width: 135px;
+    height: 135px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 95;
+}
+
+.f_onlineshop a {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 30px;
+    border-radius: 100px;
+}
+
+.f_onlineshop:hover a {
+    color: #FAE7D5;
+}
+
+.f_onlineshop:hover {
+    background-color: #33261E;
+}
+
+
+/* arrow */
+.top {
+    position: fixed;
+    top: 400px;
+    right: 90px;
+    display: none;
+}
+
+/* footer */
+
+footer p {
+    position: fixed;
+    bottom: 20px;
+    left: calc(50% - (479.8px / 2));
+    font-size: 12px;
+    z-index: 97;
+}
+
+/* /////////////fixed end////////////// */
+
+
+/* page 1 */
+#page1 {
+    margin: auto;
+    background: url(../img/bg_f.png) no-repeat center;
+    height: 937px;
+    z-index: 2;
+}
+
+#page1 p {
+    text-align: center;
+    font-size: 480px;
+    font-family: 'COCOMAT', sans-serif;
+    color: #33261E;
+    overflow: hidden;
+    padding-top: 70px;
+}
+
+
+/* page 2 */
+#page2 {
+    margin: auto;
+    background: url(../img/bg_f.png) no-repeat center;
+    height: 937px;
+    z-index: 2;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.con {
+    width: 1080px;
+    height: 697px;
+    position: relative;
+    z-index: 11;
+}
+
+.con_in {
+    width: 930px;
+    height: 695px;
+    margin: auto;
+}
+
+/* /////////////////////con1///////////////// */
+.con1 {
+    background-color: white;
+    height: 200px;
+    border-radius: 100px;
+    border: #33261E 1px solid;
+    box-shadow: 8px 8px #FAE7D5;
+    margin-bottom: 44px;
+}
+
+.con1 ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+.con1 ul li:nth-child(1) {
+    background: url(../img/journal/jounal01.png);
+    width: 320px;
+    height: 200px;
+    border-radius: 100px 0 0 100px;
+    box-shadow: 0 0 0 1px #33261E;
+}
+
+.con1 ul li:nth-child(2) {
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    ;
+    box-sizing: border-box;
+}
+
+.con1 ul li:nth-child(2) h3 {
+    font-size: 20px;
+    padding: 35px 0 0 0;
+}
+
+.con1 ul li:nth-child(2) p {
+    font-size: 12px;
+    padding: 30px 0 10px;
+}
+
+.con1 ul li:nth-child(2) a {
+    font-size: 12px;
+    text-align: right;
+    display: block;
+    font-weight: 600;
+}
+
+.con1 ul li:nth-child(2) a:hover {
+    text-decoration: underline;
+}
+
+.con1 ul li:nth-child(3) {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: 0 0 0 1px #33261E;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 67px;
+    box-sizing: border-box;
+}
+
+.con1:hover .on {
+    background-color: #33261E;
+    color: #FAE7D5;
+}
+
+/* /////////////////////con2///////////////// */
+.con2 {
+    background-color: white;
+    height: 200px;
+    border-radius: 100px;
+    border: #33261E 1px solid;
+    box-shadow: 8px 8px #FAE7D5;
+    margin-bottom: 44px;
+}
+
+.con2 ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+.con2 ul li:nth-child(1) {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: 0 0 0 1px #33261E;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 67px;
+    box-sizing: border-box;
+}
+
+
+.con2 ul li:nth-child(2) {
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    ;
+    box-sizing: border-box;
+}
+
+.con2 ul li:nth-child(2) h3 {
+    font-size: 20px;
+    padding: 23px 0 0 0;
+}
+
+.con2 ul li:nth-child(2) p {
+    font-size: 12px;
+    padding: 30px 0 10px;
+}
+
+.con2 ul li:nth-child(2) a {
+    font-size: 12px;
+    text-align: right;
+    display: block;
+    font-weight: 600;
+}
+
+.con2 ul li:nth-child(2) a:hover {
+    text-decoration: underline;
+}
+
+.con2 ul li:nth-child(3) {
+    background: url(../img/journal/jounal02.png);
+    width: 320px;
+    height: 200px;
+    border-radius: 0px 100px 100px 0px;
+    box-shadow: 0 0 0 1px #33261E;
+}
+
+
+
+.con2:hover .on {
+    background-color: #33261E;
+    color: #FAE7D5;
+}
+
+/* /////////////////////con3//////////////// */
+.con3 {
+    background-color: white;
+    height: 200px;
+    border-radius: 100px;
+    border: #33261E 1px solid;
+    box-shadow: 8px 8px #FAE7D5;
+    margin-bottom: 44px;
+}
+
+.con3 ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+.con3 ul li:nth-child(1) {
+    background: url(../img/journal/jounal03.png);
+    width: 320px;
+    height: 200px;
+    border-radius: 100px 0 0 100px;
+    box-shadow: 0 0 0 1px #33261E;
+}
+
+.con3 ul li:nth-child(2) {
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    ;
+    box-sizing: border-box;
+}
+
+.con3 ul li:nth-child(2) h3 {
+    font-size: 20px;
+    padding: 30px 0 0 0;
+}
+
+.con3 ul li:nth-child(2) p {
+    font-size: 12px;
+    padding: 30px 0 10px;
+}
+
+.con3 ul li:nth-child(2) a {
+    font-size: 12px;
+    text-align: right;
+    display: block;
+    font-weight: 600;
+}
+
+.con3 ul li:nth-child(2) a:hover {
+    text-decoration: underline;
+}
+
+.con3 ul li:nth-child(3) {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: 0 0 0 1px #33261E;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 67px;
+    box-sizing: border-box;
+}
+
+.con3:hover .on {
+    background-color: #33261E;
+    color: #FAE7D5;
+}
+
+/* //////////////////popup/////////////////// */
+#journal_popup {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: none;
+    position: absolute;
+    margin: 0 auto;
+    margin-left: 33.33px;
+    z-index: 80;
+}
+
+.popup {
+    background-color: white;
+    width: 960px;
+    height: 736px;
+    border-radius: 10px;
+    border: #33261E 1px solid;
+
+
+}
+
+.popup_in {
+    background-color: white;
+    width: 930px;
+    height: 632px;
+    border-radius: 5px 5px 0 0;
+    border: #33261E 1px solid;
+    margin: 15px 0 0 14px;
+   
+    overflow-y: scroll;
+    text-align: center;
+}
+
+.popup_in_title {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    margin: 16.5px;
+    box-sizing: border-box;
+}
+
+
+.popup_in_title_in {
+    background-color: white;
+    height: 70px;
+    width: 930px;
+    border-radius: 35px;
+    box-shadow: 0 0 0 1px #33261E inset;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+
+}
+
+.popup_in_title_in h6 {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    font-size: 20px;
+    font-weight: 200;
+    background-color: #FFF0E2;
+    box-shadow: 0 0 0 1px #33261E inset;
+    padding-top: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.popup_in_title_in h5 {
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 400;
+}
+
+.popup_in_txt {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 70px;
+}
+
+.popup_in_txt img {
+    height: 529px;
+}
+
+.popup_in_txt .p1 {
+    width: 340px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.popup_in_txt .p1 span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.popup_in_txt .p2 {
+    text-align: left;
+}
+
+
+#journal_popup p a {
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 10px;
+    font-family: 'COCOMAT', sans-serif;
+}
+
+/* popup scroll */
+.popup_in::-webkit-scrollbar {
+   
+    width: 10px;
+}
+
+.popup_in::-webkit-scrollbar-thumb {
+  
+    background-color: #33261E;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+
+.popup_in::-webkit-scrollbar-track {
+   
+    background-color: #FDF6F0;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
+
+/*/////////////////// popup end/////////////////// */
